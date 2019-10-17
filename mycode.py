@@ -1,6 +1,5 @@
 #Art Tenorio
 #CISC483
-
 import csv
 import numpy as np
 import pandas as pd
@@ -34,8 +33,6 @@ print("finally all the columns for the matrices are numerical.\n")
 
 newdf = df[['age','education-num','race','sex','capital-gain',
 'capital-loss','hours-per-week','classmoney']].copy()
-
-
 
 print('COVARIANCE MATRIX:')
 cov = newdf.cov()
