@@ -3,7 +3,7 @@
 import csv
 import numpy as np
 import pandas as pd
-
+#simply edit the path to load the file at your convenience...
 df = pd.read_csv("/home/art/Downloads/data.csv",
 skiprows=0)
 #dataset attr names would mess up without this
